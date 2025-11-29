@@ -1,0 +1,13 @@
+#start-line{
+    display: flex;
+    flex-direction: column;
+    width: 512px;
+    margin: 10px 0 10px 50px;
+    border: 1px solid black; 
+}
+
+#start {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #06c80d;
+}

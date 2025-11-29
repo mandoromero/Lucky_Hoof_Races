@@ -1,0 +1,38 @@
+#finish-line {
+    display: flex;
+    flex-direction: column;
+    width: 512px;
+    margin: 10px 0 10px 50px;
+    border: 1px solid black;
+}
+
+#finish {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #CC0202;
+
+}
+
+.letter {
+    display: flex;
+    width: 15px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: white;
+}
+
+#dots {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.space {
+    margin-left: 5px;
+}

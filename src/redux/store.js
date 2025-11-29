@@ -1,12 +1,22 @@
-// Import Redux Toolkit's configureStore function
-import { configureStore } from '@reduxjs/toolkit';
-// Import the counter reducer to include in the store
-import counterReducer from './counterSlice';
+// src/store.js
+import { configureStore } from "@reduxjs/toolkit";
 
-// Configure the Redux store
-export const store = configureStore({
+const initialState = {
+  gameName: "Deck & Dice Derby",
+};
+
+function appReducer(state = initialState, action) {
+  switch (action.type) {
+    // add your actions here later
+    default:
+      return state;
+  }
+}
+
+const store = configureStore({
   reducer: {
-    counter: counterReducer, // Add the counter reducer under the 'counter' slice
+    app: appReducer,
   },
 });
 
+export default store;

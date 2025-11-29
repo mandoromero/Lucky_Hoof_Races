@@ -1,0 +1,20 @@
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px;
+    background-color: #1f2933;
+    width: 100vw;
+    color: #fff;
+    margin-left: -40px;
+    margin-top: -40px;
+    margin-right: -100px
+}
+
+#title {
+    margin: 0 30px;
+}
+
+#start-btn {
+    margin-right: 3rem;
+}
