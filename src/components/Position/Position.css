@@ -1,4 +1,12 @@
-#game-board {
+#position-container {
+    display: flex;
+    flex-direction: column;
+    width: 512px;
+    margin: 10px 0 10px 50px;
+    border: 1px solid black;
+}
+
+#position {
     width: 40%;
     display: grid;
     grid-template-columns: repeat(11,1fr);
@@ -6,24 +14,16 @@
     padding: 5px;
     margin: 0 50px;
     border: 1px solid black;
-    background-color: #FCA577;
+     background-color: #FC8E77;
 }
 
-.cell {
-    height: 60vh;
+.position-number {
+    height: 40px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     border: 1px solid black;
     background-color: #FC8E77;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
-;}
-
-.dot {
-    background-color: black;
-    width: 5px;
-    height:5px;
-    border-radius: 50%;
 }

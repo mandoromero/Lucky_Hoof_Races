@@ -1,0 +1,19 @@
+#scratched-container {
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+    gap: 10px;
+    padding: 5px;
+    margin: 0 50px;
+    border: 1px solid black;
+}
+
+#scratched{
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+    gap: 10px;
+    padding: 5px;
+    margin: 0 50px;
+    border: 1px solid black;
+}

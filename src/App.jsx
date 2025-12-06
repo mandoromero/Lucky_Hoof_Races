@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar/Navbar"
 import GameBoard from "./components/GameBoard/GameBoard";
 import FinishLine from "./components/FinishLine/FinishLine";
 import StartLine from "./components/StartLine/StartLine";
+import Position from "./components/Position/Position";
+import Scratched from "./components/Scratched/Scratched";
 import "../src/App.css";
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
         <FinishLine />
         <GameBoard />
         <StartLine />
+        <Position />
+        <Scratched />
       </div>
     </>
   )
