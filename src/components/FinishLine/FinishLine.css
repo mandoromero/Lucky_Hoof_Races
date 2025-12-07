@@ -1,7 +1,7 @@
 #finish-line {
     display: flex;
     flex-direction: column;
-    width: 512px;
+    width: 712px;
     margin: 10px 0 10px 50px;
     border: 1px solid black;
 }
@@ -25,12 +25,12 @@
     color: white;
 }
 
-#dots {
+.dots {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(11,1fr);
     padding: 5px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .space {

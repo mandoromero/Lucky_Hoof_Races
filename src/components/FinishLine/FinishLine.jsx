@@ -16,7 +16,7 @@ export default function FinishLine() {
                 <div class="letter">N</div>
                 <div class="letter">E</div>
             </div>
-            <div id="dots">
+            <div className="dots">
                 <div class="dot space"></div>
                 <div class="dot space"></div>
                 <div class="dot space"></div>

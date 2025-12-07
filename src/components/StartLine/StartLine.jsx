@@ -3,7 +3,7 @@ import "../StartLine/StartLine.css";
 export default function StartLine() {
     return (
         <div id="start-line">
-            <div id="dots">
+            <div className="dots">
                 <div class="dot space"></div>
                 <div class="dot space"></div>
                 <div class="dot space"></div>
